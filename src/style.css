@@ -1,0 +1,113 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: hsl(220deg, 10%, 97%);
+}
+
+#list {
+  margin:170px;
+}
+
+
+
+.hidden{
+  margin: 300px;
+  justify-content: space-between;
+  
+}
+
+.box {
+  margin: 40px;
+  background-color: #f3f2ed;
+  width: 270px;
+  height: 30px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: opx 10px;
+}
+input {
+  width: 200px;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 2px;
+}
+.fa-magnifying-glass:hover {
+  color: #666666;
+  cursor: pointer;
+}
+
+#sepatu {
+  width: 1065.83px;
+  margin-top: -300px;
+}
+
+#shadow {
+  margin-left: 50px;
+  margin-top: 720px;
+  position: absolute;
+  width: 580px;
+  height: 30px;
+  background: #000000;
+  opacity: 0.4;
+  filter: blur(27px);
+  transform: rotate(-2.1deg);
+}
+
+#sepatublur {
+    filter: blur(4px);
+}
+
+
+.frame {
+  width: 100%;
+  margin: 40px auto;
+  text-align: center;
+}
+button {
+  margin: 20px;
+  outline: none;
+}
+
+.custom-btn {
+  width: 210px;
+  height: 90px;
+  padding: 10px 70px;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.btn-15 {
+  background: #FFFCED;
+  color: #000;
+  z-index: 1;
+}
+.btn-15:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background: #000;
+  transition: all 0.3s ease;
+}
+.btn-15:hover {
+  color: #FFFCED;
+}
+.btn-15:hover:after {
+  left: 0;
+  width: 100%;
+}
+.btn-15:active {
+  top: 2px;
+}
